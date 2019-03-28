@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shannon.sun.demo01.dal.mapper.AnimalMapper" >
+    <sql id="BASE_TABLE">
+        animal
+    </sql>
+    <sql id="BASE_COLUMN">
+        id, name
+    </sql>
+
+
+    <select id="findByAnimalName" resultType="com.shannon.sun.demo01.dal.entity.Animal">
+        select *
+        from <include refid="BASE_TABLE"/>
+        <where>
+            <if test="null != name and '' != name">
+                name = #{name}
+            </if>
+        </where>
+    </select>
+</mapper>

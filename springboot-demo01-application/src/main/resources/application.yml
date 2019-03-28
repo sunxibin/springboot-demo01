@@ -1,6 +1,7 @@
 server:
   port: 9001
 
+
 spring:
   application:
     name: ${demo01}
@@ -11,6 +12,8 @@ spring:
     username: root
     password: 123456
 
+
+# mybatis-plus配置官方文档 https://mp.baomidou.com/config/#typealiasessupertype
 mybatis-plus:
-  mapper-locations: classpath*:mysql/**/*Mapper.xml
-  type-aliases-package: com.shannon.sun.demo01.dal.entity
+# 指定外部化 MyBatis Properties 配置，通过该配置可以抽离配置，实现不同环境的配置部署。
+  configuration-properties: classpath:mybatis/mybatis-config.yml
