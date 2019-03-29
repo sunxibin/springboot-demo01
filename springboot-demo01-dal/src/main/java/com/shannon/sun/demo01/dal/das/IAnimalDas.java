@@ -10,4 +10,6 @@ public interface IAnimalDas {
     Animal findByAnimalName(String name);
 
     Animal findById(Long id);
+
+    Integer insert(Animal animal);
 }

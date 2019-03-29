@@ -28,4 +28,8 @@ public class AnimalDas implements IAnimalDas {
 //        List<Animal> list = animalMapper.selectList(queryWrapper);
 //        return list.get(0);
     }
+
+    public Integer insert(Animal animal) {
+        return animalMapper.insert(animal);
+    }
 }

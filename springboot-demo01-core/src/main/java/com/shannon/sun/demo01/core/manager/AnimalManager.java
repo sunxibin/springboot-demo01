@@ -19,6 +19,10 @@ public class AnimalManager {
         return animalDas.findById(id);
     }
 
+    public Integer insert(Animal animal) {
+        return animalDas.insert(animal);
+    }
+
     public Animal getAnimalByName(String name) {
         return animalDas.findByAnimalName(name);
     }

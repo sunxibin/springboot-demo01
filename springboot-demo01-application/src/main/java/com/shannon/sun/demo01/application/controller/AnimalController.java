@@ -20,10 +20,16 @@ public class AnimalController {
     private AnimalManager animalManager;
 
     @RequestMapping(value = "/animal/get")
-    public Result<Animal> findAnimal() {
-        Animal a = animalManager.getAnimalById(1L);
-        Animal b = animalManager.getAnimalByName("cat");
-        return new Result<Animal>(true, b, "success","200");
+    public Result<?> findAnimal() {
+//        Animal a = animalManager.getAnimalById(1L);
+//        Animal b = animalManager.getAnimalByName("cat");
+
+        Animal c = Animal.builder().name("dog").type(1).sex(1).master("shannon").build();
+        Integer impactRows = animalManager.insert(c);
+        System.out.println(impactRows);
+
+//        return Result.success(a);
+        return Result.failure("hahha");
     }
 
 }
