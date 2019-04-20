@@ -1,29 +1,16 @@
 package com.shannon.sun.demo01.core.manager;
 
-import com.shannon.sun.demo01.dal.das.IAnimalDas;
 import com.shannon.sun.demo01.dal.entity.Animal;
-import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 
 /**
- * @author xibin sun
+ * @author shannon sun
+ * @date 2019/4/2 23:27
  */
-@Service
-public class AnimalManager {
+public interface AnimalManager {
 
-    @Resource
-    private IAnimalDas animalDas;
+    Animal getAnimalById(Long id);
 
-    public Animal getAnimalById(Long id) {
-        return animalDas.findById(id);
-    }
+    Integer insert(Animal animal);
 
-    public Integer insert(Animal animal) {
-        return animalDas.insert(animal);
-    }
-
-    public Animal getAnimalByName(String name) {
-        return animalDas.findByAnimalName(name);
-    }
+    Animal getAnimalByName(String name);
 }

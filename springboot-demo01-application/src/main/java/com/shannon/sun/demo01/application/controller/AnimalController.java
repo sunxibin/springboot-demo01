@@ -1,7 +1,7 @@
 package com.shannon.sun.demo01.application.controller;
 
 import com.shannon.sun.demo01.common.response.Result;
-import com.shannon.sun.demo01.core.manager.AnimalManager;
+import com.shannon.sun.demo01.core.manager.impl.AnimalManagerImpl;
 import com.shannon.sun.demo01.dal.entity.Animal;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 public class AnimalController {
 
     @Resource
-    private AnimalManager animalManager;
+    private AnimalManagerImpl animalManagerImpl;
 
     @RequestMapping(value = "/animal/get")
     public Result<?> findAnimal() {
@@ -25,7 +25,7 @@ public class AnimalController {
 //        Animal b = animalManager.getAnimalByName("cat");
 
         Animal c = Animal.builder().name("dog").type(1).sex(1).master("shannon").build();
-        Integer impactRows = animalManager.insert(c);
+        Integer impactRows = animalManagerImpl.insert(c);
         System.out.println(impactRows);
 
 //        return Result.success(a);

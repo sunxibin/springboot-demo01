@@ -4,12 +4,14 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.shannon.sun.demo01.dal.enums.AnimalSex;
 import com.shannon.sun.demo01.dal.enums.AnimalType;
+import lombok.Builder;
 import lombok.Data;
 
 /**
  * @author xibin sun
  */
 @Data
+@Builder
 @TableName(value = "animal")
 public class Animal extends BaseDO{
 

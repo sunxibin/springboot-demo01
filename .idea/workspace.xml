@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17feb3a1-33aa-44c0-8a91-4c9bb86b05c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/impl/AnimalManagerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-application/target/classes/com/shannon/sun/demo01/application/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-application/target/classes/com/shannon/sun/demo01/application/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-application/target/classes/com/shannon/sun/demo01/application/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-application/target/classes/com/shannon/sun/demo01/application/controller/AnimalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-application/target/classes/com/shannon/sun/demo01/application/controller/AnimalController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/IAnimalDas.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/IAnimalDas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-core/target/classes/com/shannon/sun/demo01/core/manager/AnimalManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-core/target/classes/com/shannon/sun/demo01/core/manager/AnimalManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-core/target/classes/com/shannon/sun/demo01/core/manager/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-core/target/classes/com/shannon/sun/demo01/core/manager/AnimalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/IAnimalDas.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/IAnimalDas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/IAnimalDas.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/IAnimalDas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/impl/AnimalDas.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/impl/AnimalDas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/entity/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/entity/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/entity/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/entity/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/mapper/animal/AnimalExtMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/mapper/animal/AnimalExtMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/mapper/animal/AnimalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo01-dal/target/classes/com/shannon/sun/demo01/dal/mapper/animal/AnimalMapper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-demo01-dal/target/" />
@@ -26,45 +42,52 @@
     <session id="317256294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="25" />
+          <entry key="java" value="29" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="4" />
-          <entry key="yml" value="7" />
+          <entry key="xml" value="8" />
+          <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="29" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="4" />
-          <entry key="YAML" value="7" />
+          <entry key="XML" value="8" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="4" />
           <entry key="ft" value="8" />
-          <entry key="java" value="649" />
-          <entry key="xml" value="200" />
+          <entry key="java" value="838" />
+          <entry key="txt" value="20" />
+          <entry key="xml" value="209" />
           <entry key="yml" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="649" />
+          <entry key="JAVA" value="838" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="VTL" value="8" />
-          <entry key="XML" value="200" />
+          <entry key="XML" value="209" />
           <entry key="YAML" value="152" />
         </counts>
       </usages-collector>
@@ -73,17 +96,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -92,73 +167,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/AnimalType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/BaseDO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -166,8 +175,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-demo01-common/src/main/java/com/shannon/sun/demo01/common/response/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="1311">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding>
+                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,9 +199,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -202,7 +215,6 @@
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/AnimalSex.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/IEnum.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/AnimalType.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/resources/mybatis/mapper/AnimalExtMapper.xml" />
         <option value="$PROJECT_DIR$/springboot-demo01-application/src/main/resources/mybatis-config.yml" />
         <option value="$PROJECT_DIR$/springboot-demo01-application/src/main/resources/application.yml" />
@@ -211,9 +223,15 @@
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/mapper/animal/AnimalMapper.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java" />
-        <option value="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/IAnimalDas.java" />
         <option value="$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java" />
+        <option value="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/impl/AnimalManager.java" />
+        <option value="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java" />
+        <option value="$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/impl/AnimalManagerImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-demo01-core/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo01-application/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo01-dal/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,7 +262,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
-    <option name="y" value="-313" />
+    <option name="y" value="-309" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -255,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -296,85 +313,11 @@
               <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-application" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -401,75 +344,6 @@
             <path>
               <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -477,209 +351,12 @@
               <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="das" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="das" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shannon" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="animal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo01-model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -690,13 +367,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553794641634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554220516115" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -733,17 +410,30 @@
       <workItem from="1553781258237" duration="6811000" />
       <workItem from="1553788686766" duration="382000" />
       <workItem from="1553789121833" duration="5527000" />
-      <workItem from="1553872566906" duration="1035000" />
+      <workItem from="1553872566906" duration="1294000" />
+      <workItem from="1554218133379" duration="2415000" />
+      <workItem from="1554221597192" duration="700000" />
+      <workItem from="1555075227406" duration="144000" />
+      <workItem from="1555734838311" duration="626000" />
     </task>
+    <task id="LOCAL-00001" summary="animal新增插入方法">
+      <created>1553873870142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553873870142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13755000" />
+    <option name="totallyTimeSpent" value="17899000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-313" width="1936" height="1056" extended-state="6" />
+    <frame x="1358" y="-309" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34168443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -754,7 +444,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2247557" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.504886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46471226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -765,7 +455,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3061889" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.30541873" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -819,6 +509,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="animal新增插入方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="animal新增插入方法" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -852,25 +546,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/resources/mybatis-config.yml" />
     <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/mapper/animal/AnimalExtMapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/resources/mybatis/mapper/AnimalMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -878,20 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/mapper/animal/AnimalMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,30 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/AnimalType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/BaseDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -935,14 +578,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/das/impl/AnimalDas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="456">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/enums/AnimalType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/BaseDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/src/main/java/com/shannon/sun/demo01/dal/entity/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/config.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/impl/AnimalManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-common/src/main/java/com/shannon/sun/demo01/common/response/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding>
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -954,46 +673,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-core/src/main/java/com/shannon/sun/demo01/core/manager/AnimalManager.java">
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-common/src/main/java/com/shannon/sun/demo01/common/response/Result.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="572">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo01-application/src/main/java/com/shannon/sun/demo01/application/controller/AnimalController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-demo01-dal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="681">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1017,6 +751,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-demo01-model</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28850573" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1031,6 +778,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
